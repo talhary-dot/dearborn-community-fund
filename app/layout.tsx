@@ -24,6 +24,16 @@ export const metadata: Metadata = {
     "Youth in Arts Festival",
     "Dearborn Michigan Nonprofit",
   ],
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/dcf-header-logo.png", type: "image/png" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [
+      { url: "/dcf-header-logo.png" },
+    ],
+  },
   authors: [{ name: "Dearborn Community Fund" }],
   openGraph: {
     title: "Dearborn Community Fund | Arts, Culture & Community Enrichment",
