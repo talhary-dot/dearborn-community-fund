@@ -102,18 +102,19 @@ export default function Navbar() {
           
           {/* Logo & Identity */}
           <Link href="/" className="flex items-center gap-3 shrink-0 group py-1">
-            <div className="h-10 sm:h-12 flex items-center shrink-0">
+            <div className="w-11 h-11 shrink-0 relative flex items-center justify-center overflow-hidden">
               <img
                 src="/dcf-header-logo.png"
                 alt="Dearborn Community Fund Official Logo"
-                className="h-9 sm:h-11 w-auto object-contain drop-shadow-xs"
+                className="w-11 h-11 object-contain drop-shadow-xs"
+                style={{ width: "44px", height: "44px", maxWidth: "44px", maxHeight: "44px" }}
               />
             </div>
             <div className="hidden sm:block shrink-0 border-l border-slate-200 pl-3">
-              <div className="text-sm font-extrabold tracking-tight text-slate-900 leading-tight">
+              <div className="text-sm font-extrabold tracking-tight text-slate-900 leading-tight whitespace-nowrap">
                 Dearborn <span className="text-blue-700">Community Fund</span>
               </div>
-              <div className="text-[10px] font-semibold text-slate-700 leading-tight max-w-[210px] truncate">
+              <div className="text-[10px] font-semibold text-slate-600 leading-tight max-w-[210px] truncate">
                 Supporting quality of life & culture in Dearborn
               </div>
             </div>
